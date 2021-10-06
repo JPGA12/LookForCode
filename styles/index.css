@@ -1,55 +1,140 @@
 * {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
-    margin: 0;
-    background-color: #efefef;
+  margin: 0;
+  background-color: #efefef;
 }
 
 .menu {
-    background-color: #1A1A1A;
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 60px;
-    margin: 0;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin: 0;
 }
 
 .menu a {
-    text-align: right;
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 0 10px;
-    color: #FFF;
-    transition: 0.3s ease all;
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: 1rem;
+  text-align: right;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 0 10px;
+  color: #fff;
+  transition: 0.3s ease all;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 1rem;
 }
 
 .menu a:hover {
-    color: #ffcc29;
+  color: #ffcc29;
 }
 
 .menu #inicio {
-    color: #9E9152;
+  color: #9e9152;
 }
 
 header {
-    width: auto;
-    height: 230px;
-    background-image: url(../img/banner.jpg);
-    background-size: cover;
-    color: #fff;
-    padding: 3rem 2rem;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  width: auto;
+  height: 230px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 3rem 2rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header h1 {
-    font-size: 4.3rem;
-    text-align: center;
+  font-size: 4.3rem;
+  text-align: center;
+}
+
+footer {
+  font-size: small;
+  background-color: #202020;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer a:hover{
+    color: #ffcc29;
+}
+
+.container-footer {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.column2 {
+  margin-left: 100px;
+  max-width: 400px;
+}
+
+.column2 h1 {
+  font-size: 25px;
+}
+
+.row {
+  margin-right: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.row img {
+  width: 40px;
+  height: 40px;
+}
+
+.row a {
+  margin-left: 5px;
+  margin-top: 9px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.column3 {
+  max-width: 500px;
+  margin-left: 80px;
+}
+
+.column3 h1 {
+  font-size: 25px;
+}
+
+.row2 {
+  margin-top: 18px;
+  display: flex;
+}
+
+.row2 a {
+  text-decoration: none;
+  margin-top: 10px;
+  max-width: 600px;
+  color: #fff;
+}
+
+.row2 label {
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+.row2 img {
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+  .container-footer {
+    flex-wrap: wrap;
+  }
 }

@@ -26,15 +26,21 @@ body {
     transition: 0.3s ease all;
     text-decoration: none;
     border-radius: 15px;
+    font-size: 1rem;
 }
 
 .menu a:hover {
     color: #ffcc29;
 }
 
+.menu #inicio {
+    color: #9E9152;
+}
+
 header {
-    width: 100%;
+    width: auto;
     height: 230px;
+    background-image: url(../img/banner.jpg);
     background-size: cover;
     color: #fff;
     padding: 3rem 2rem;

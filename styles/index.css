@@ -31,3 +31,23 @@ body {
 .menu a:hover {
     color: #ffcc29;
 }
+.banner{
+    width: 100%;
+    height: 230px;
+    background-image: url(img/separador.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner P{
+    color: white;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 10px;
+}

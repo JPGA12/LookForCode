@@ -54,6 +54,37 @@ header h1 {
   text-align: center;
 }
 
+
+.Nostros{
+  padding: 1rem 6.5rem;
+  margin: 0 auto;
+}
+.Nostros h1{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 0.2fr);
+  gap: 22rem;
+}
+.contenedorN {
+  padding: 5rem 15rem;
+  margin: 0 auto;
+}
+
+.contenedorN h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 50;
+}
+.contenedorN h3{
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
 footer {
   font-size: small;
   background-color: #202020;

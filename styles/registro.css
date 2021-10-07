@@ -58,7 +58,7 @@ body {
 
 .form-registrer {
     width: 400px;
-    background-color: #24303c;
+    background-color: #1A1A1A;
     padding: 30px;
     margin: auto;
     margin-top: 50px;
@@ -75,7 +75,7 @@ body {
   
   .control {
     width: 375px;
-    background: #24303c;
+    background: #1A1A1A;
     color: #ffff;
     padding: 10px;
     border-radius: 4px;

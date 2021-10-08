@@ -67,30 +67,88 @@ section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(255, 255, 255, 0.2);
 }
 
-section article h3 {
-    margin: 1rem;
-    color: #fff;
-    font-size: 1.5rem;
+table {
+
 }
 
-section article p {
-    margin: 1rem;
-    color: #fff;
+
+table th {
+
+    padding: 0.5rem 0.5rem;
+    width: 10em;
 }
 
-.video {
+table {
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+tr:nth-of-type(1) > th {
+    background-color: #ffcc29;
+
+}
+
+table tbody {
+    background-color: #efefef;
+
+}
+
+table tfoot {
+    border-radius: 1 rempx;
+    background-color: #efefef;
+}
+
+table caption {
+    background-color: white;
+}
+
+td[rowspan] {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+.grid {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    gap: 2rem;
+}
+
+.bloque {
+    text-align: center;
+    color: limegreen;
+}
+
+
+.bloque h3 {
+    margin: 0;
+}
+
+.contactos {
     padding: 1rem 6.5rem;
     margin: 0 auto;
 }
 
-.video h1 {
-    font-size: 2rem;
+.contactos h1 {
+
+    font-size: 1.5rem;
     text-align: center;
     color: #efefef;
+    margin: 0;
 }
 
-.video p {
-    font-size: 2rem;
-    text-align: center;
+.contactos h3 {
     color: #efefef;
+
 }
+
+.contactos p {
+    color: #efefef;
+
+}
+
